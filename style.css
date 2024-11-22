@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #ffffff;
+    padding: 10px 20px;
+  }
+  
+  header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    margin-left: 20px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #faf5f5;
+    transition: color 0.3s;
+  }
+  
+  .nav ul li a:hover {
+    color: #f8f400;
+  }
+  
+  .hero {
+    background: url('autofast.logo.jpg') no-repeat center center/cover;
+    color: #000000;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h2 {
+    font-size: 36px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+  }
+   
+  .about, .services, .footer {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about h2, .services h2, .footer h2 {
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+  }
